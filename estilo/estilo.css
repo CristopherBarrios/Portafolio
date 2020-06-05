@@ -1,0 +1,207 @@
+body{
+  overflow-x:hidden;
+  color:#FFF;
+  font-family:Helvetica;
+  font-size:200%;
+}
+#page {
+  overflow:hidden;
+  white-space:nowrap;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#CCC;
+  display:flex;
+  flex-wrap:no-wrap;
+}
+.pane {
+  flex:0 0 100vw;
+  height:100vh;
+  display:flex;
+  position:relative;
+  background-color: black;
+  border-left: white 5px solid;
+}
+.pane:nth-child(4n+2)  {
+  background-color: black;
+  border-left: white 5px solid;
+}
+.pane:nth-child(4n+3)  {
+  background-color: black;
+  border-left: white 5px solid;
+}
+.pane:nth-child(4n+4)  {
+  background-color: black;
+  border-left: white 5px solid;
+}
+.pane:last-child {
+  background-color: black;
+  border-left: white 5px solid;
+}
+.numeros{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-family: 'Ruthie', cursive;
+}
+.imagen1{
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  width: 410px;
+  height: 621px;
+}
+.name{
+  position: absolute;
+  top: 290px;
+  right: 940px;
+  font-size: 100px;
+  transform: rotate(-90deg);
+  font-family: 'Ruthie', cursive;
+}
+.parrafo{
+  position: absolute;
+  width: 660px;
+  height: 321px;
+  top: 310px;
+  right: 60px;
+  font-size: 15px;
+  font-family: 'Chelsea Market', cursive;
+}
+.titulos{
+  position: absolute;
+  font-size: 80px;
+  font-family: 'Charm', cursive;
+  top: 30px;
+  left: 80px;
+}
+.logoGit{
+  position: absolute;
+  top: 50px;
+  left: 800px;
+  width: 200px;
+  height: 113px;
+}
+.prog{
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  width: 700px;
+  height: 393px;
+}
+.prog2{
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  width: 300px;
+  height: 300px;
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+/* selected link */
+a:active {
+  color: white;
+}
+/* css parte de progr */
+.imagen2{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  width: 1000px;
+  height: 463px;
+}
+.probandoImagenes{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 50px;
+  height: 53px;
+
+}
+.libros{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 400px;
+  height: 566px;
+
+}
+.tituloLibro{
+  position: absolute;
+  font-size: 80px;
+  font-family: 'Charm', cursive;
+  top: 30px;
+  left: 580px;
+}
+.libros1{
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  width: 200px;
+  height: 283px;
+}
+.libros2{
+  position: absolute;
+  top: 200px;
+  left: 220px;
+  width: 200px;
+  height: 283px;
+}
+.libros3{
+  position: absolute;
+  top: 200px;
+  left: 430px;
+  width: 200px;
+  height: 283px;
+}
+.libros4{
+  position: absolute;
+  top: 200px;
+  left: 640px;
+  width: 200px;
+  height: 283px;
+}
+.libros5{
+  position: absolute;
+  top: 200px;
+  left: 850px;
+  width: 200px;
+  height: 283px;
+}
+.libros6{
+  position: absolute;
+  top: 200px;
+  left: 1060px;
+  width: 200px;
+  height: 283px;
+}
+.vc{
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  width: 900px;
+  height: 500px;
+
+}
+::-webkit-scrollbar {
+  display:none;
+}
+
+
+
+
+
